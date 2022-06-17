@@ -21,7 +21,8 @@ class rope{
 
 		//WRITE THE CORRECT CODE TO RENDER A LINE BETWEEN THE TWO BODIES
 
-		
+		stroke("black");
+	    line(pointA.x,pointA.y,pointB.x+this.offsetX,pointB.y)
 	}
 
 }
